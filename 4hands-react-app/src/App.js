@@ -1,5 +1,6 @@
 import React from 'react';
 import CurrentMenu from './components/CurrentMenu';
+import AddMenu from './components/AddMenu';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <h1>4 Hands Food Studio</h1>
         <h3>Menu Editor</h3>
       </header>
+      <AddMenu/>
       <CurrentMenu/>
     </div>
   );
