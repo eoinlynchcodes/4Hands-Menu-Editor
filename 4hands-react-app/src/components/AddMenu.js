@@ -11,6 +11,7 @@ function AddMenu(){
         <form>
             <label>Menu
             <input
+            type="text"
             />
             </label>
         </form>
